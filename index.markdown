@@ -9,4 +9,4 @@ permalink: /
 
 # Welcome to My Site
 
-[View Blog Posts](/blog/)
+[View Blog Posts]({{ site.baseurl}}/blog/)

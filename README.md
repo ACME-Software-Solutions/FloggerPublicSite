@@ -1,2 +1,2 @@
-# VoiceRecorderPublicSite
-Public site for the Voice Recorder apps: GitHub Pages, Project Board, etc
+# LifeLog Public Site
+Public site for the LifeLog apps: GitHub Pages, Project Board, etc

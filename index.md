@@ -7,13 +7,18 @@ page_sections:
     block: header-2
     logo: "/uploads/2018/06/21/forestry-full.svg"
     navigation:
-      - link: "/blog/"
-        link_text: Dev Blog
+      - link: "#section1"
+        link_text: "Section 1"
+      - link: "#section2"
+        link_text: "Section 2"
+      - link: "#section3"
+        link_text: "Section 3"
     cta:
-      url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
-      button_text: Import
+      url: "/blog/"
+      button_text: Read the Dev Blog
+  
   - template: hero-banner-w-image
-    block: hero-2
+    media_alignment: Right
     slug: features
     headline: uBuild <br><strong>design blocks</strong>
     content:
@@ -27,6 +32,7 @@ page_sections:
       image: "/uploads/2018/06/21/product-shot-1.png"
       alt_text: Product Shot
     background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  
   - template: content-feature
     block: feature-1
     media_alignment: Left
@@ -40,6 +46,25 @@ page_sections:
     media:
       image: "/uploads/2018/06/21/blocks-split.png"
       alt_text: uBuild Blocks Mock-Up
+  
+  - template: content-feature
+    block: feature-1
+    slug: section1
+    headline: "Section 1"
+    content: "This is the first section content"
+    
+  - template: content-feature
+    block: feature-1
+    slug: section2
+    headline: "Section 2"
+    content: "This is the second section content"
+    
+  - template: content-feature
+    block: feature-1
+    slug: section3
+    headline: "Section 3"
+    content: "This is the third section content"
+  
   - template: content-feature
     block: feature-1
     media_alignment: Right
@@ -53,6 +78,7 @@ page_sections:
     media:
       image: "/uploads/2018/06/21/edit.gif"
       alt_text: Customize Blocks
+  
   - template: 1-column-text
     block: one-column-1
     slug: responsive
@@ -61,18 +87,100 @@ page_sections:
       The Design Blocks can be used without Forestry but to harness the power
       of Blocks we recommend using <a href="https://forestry.io">Forestry</a>. Once the site is imported you can immediately
       create new sites and make them fully customizable.
+  
   - template: full-width-media-element
     block: media-1
     image: "/uploads/2018/06/21/theme.png"
     caption: All Available Blocks
     slug: blocks
+  
   - template: detail-content
     block: text-1
     headline: Steps to Build a Site!
     content:
       <p>uBuild is an open-source Jekyll based demo that doubles as a builder tool inside the Forestry content manager.</p><ol><li><p><a href="https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll">Import this demo in Forestry</a>.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
       article</a> and create your own Blocks.</p></li><li><p>Add and customize the available Blocks and preview them as you go along.</p></li></ol>
+  
   - template: simple-footer
     block: footer-1
     content: Made with ❤︎ in Canada
+
+  # Header Blocks
+  - template: navigation-header-w-button
+    block: header-2
+    logo: "/uploads/logo.svg"
+    navigation:
+      - link: "/"
+        link_text: Home
+    cta:
+      url: "/contact/"
+      button_text: Contact
+
+  - template: divider-1
+    block: divider-1
+    text: Optional Text Here  # Remove this line for just a line
+  
+  # Hero Blocks
+  - template: hero-banner-w-image
+    block: hero-2
+    headline: Main Headline
+    content: Hero content goes here
+    image:
+      image: "/uploads/hero.png"
+      alt_text: Hero Image
+  
+  - template: divider-1
+    block: divider-1
+    text: Optional Text Here  # Remove this line for just a line
+
+  # Feature Blocks
+  - template: content-feature
+    block: feature-1
+    media_alignment: Left
+    headline: Feature Title
+    content: Feature content
+    media:
+      image: "/uploads/feature.png"
+      alt_text: Feature Image
+  - template: divider-1
+    block: divider-1
+    text: Optional Text Here  # Remove this line for just a line
+
+  # Column Blocks
+  - template: 1-column-text
+    block: one-column-1
+    headline: Single Column
+    content: Content here
+  - template: divider-1
+    block: divider-1
+    text: Optional Text Here  # Remove this line for just a line
+
+  - template: 2-column-text
+    block: two-column-1
+    col_1:
+      headline: Column 1
+      content: First column content
+    col_2:
+      headline: Column 2
+      content: Second column content
+  - template: divider-1
+    block: divider-1
+    text: Optional Text Here  # Remove this line for just a line
+
+  # Media Blocks
+  - template: full-width-media-element
+    block: media-1
+    image: "/uploads/media.jpg"
+    caption: Media caption
+
+  # CTA Block
+  - template: cta-bar
+    block: cta-bar
+    content: Call to action text
+    email_recipient: example@email.com
+
+  # Footer Block
+  - template: simple-footer
+    block: footer-1
+    content: Footer content here
 ---

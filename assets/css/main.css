@@ -733,6 +733,37 @@ input.inverted::placeholder {
     margin: 2rem;
   }
 }
+.block-divider-1 {
+  padding: 64px 32px;
+  padding: 4rem 2rem;
+}
+.block-divider-1 .divider {
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid var(--color-text-light);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.block-divider-1 .divider-text {
+  background: var(--color-white);
+  padding: 0 32px;
+  padding: 0 2rem;
+  position: relative;
+  top: 0.7em;
+  color: var(--color-text-medium);
+  font-size: 16px;
+  font-size: 1rem;
+}
+@media screen and (min-width: 700px) {
+  .block-divider-1 {
+    padding: 6rem 4rem;
+  }
+  .block-divider-1 .divider-text {
+    font-size: 1.2rem;
+  }
+}
+
 body {
   font-family:
     -apple-system,

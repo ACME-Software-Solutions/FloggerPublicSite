@@ -4,16 +4,29 @@ style="background-image: url('{{ section.background_image | relative_url }}')"
 {% endif %}>
   <div class="container">
     <div class="columns">
-      <div class="column text">
-        <h1><span class="light">{{ section.headline }}</span></h1>
-        <p>{{ section.content }}</p>
-        {% if section.cta and section.cta.enabled == true %}
-        <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
-        {% endif %}
-      </div>
-      <div class="column media">
-        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}" loading="lazy">
-      </div>
+      {% if section.media_alignment == "Right" %}
+        <div class="column text">
+          <h1><span class="light">{{ section.headline }}</span></h1>
+          <p>{{ section.content }}</p>
+          {% if section.cta and section.cta.enabled == true %}
+          <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+          {% endif %}
+        </div>
+        <div class="column media">
+          <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}" loading="lazy">
+        </div>
+      {% else %}
+        <div class="column media">
+          <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}" loading="lazy">
+        </div>
+        <div class="column text">
+          <h1><span class="light">{{ section.headline }}</span></h1>
+          <p>{{ section.content }}</p>
+          {% if section.cta and section.cta.enabled == true %}
+          <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>

@@ -7,6 +7,11 @@
       <div class="column text">
         <h2><span class="light">{{ section.headline }}</span></h2>
         <p>{{ section.content }}</p>
+        <ul>
+          {% for element in section.details %}
+          <li><strong>{{ element.title }}:</strong>&nbsp;{{ element.text }}</li>
+          {% endfor %}
+        </ul>
       </div>
       <div class="column media">
         <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}" loading="lazy">

@@ -18,40 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: "Flogger: An Minimalist and Unobtrusive Life Improvement Tool"
+email: adam.king0126@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/LifeLogPublicSite" # Use your repository name
-url: "https://acme-software-solutions.github.io" # Your GitHub Pages domain
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
-# theme: minima
-# plugins:
-#   - jekyll-feed
+baseurl: "/LifeLogPublicSite"
+url: "https://acme-software-solutions.github.io" 
+twitter_username: adamking0126
+github_username:  adamking0126
 
 # Build settings
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: "" # all files in the project
     values:
       layout: blocks
-      page_sections:
-        - template: navigation-header-w-button
-          block: header-2
-          logo: "/uploads/2018/06/21/forestry-full.svg"
-          navigation:
-            - link: "/"
-              link_text: Home
-        - template: post-content
-          block: post-content
-        - template: simple-footer
-          block: footer-1
-          content: Made with ❤︎ in Canada
 
 plugins:
   - jekyll-feed

@@ -1,9 +1,8 @@
 ---
 title:  "Players in the space"
 date:   2025-05-08 10:22:46 -0500
+excerpt: "My custom excerpt"
 ---
-
-# Players in the Space
 
 ### Guava Health 
 - https://guavahealth.com/

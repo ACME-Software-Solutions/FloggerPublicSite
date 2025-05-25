@@ -1,0 +1,50 @@
+.blog-list .columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-list .column.text {
+  flex: 0 0 30%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.blog-list .column.media {
+  flex: 0 0 70%;
+  padding-right: 1rem;
+}
+
+.post-preview {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-text-light);
+}
+
+.blog-list .column.text a {
+  color: var(--color-link-unvisited);
+  text-decoration: none;
+}
+
+.blog-list .column.text a:visited {
+  color: var(--color-link-visited);  /* Visited - more muted */
+}
+
+.blog-list .column.text a:hover {
+  color: var(--color-link-hover);  /* Hover - slightly darker */
+}
+.block-post-content  {
+  padding: 2rem;
+}
+
+/* Add space after h1 */
+.block-post-content h1 {
+  margin-bottom: 2rem;
+}
+
+/* Keep list items aligned within container */
+.block-post-content ul {
+  padding-left: 2rem;  /* gives space for bullets */
+  margin-left: 0;      /* ensures alignment with title */
+}

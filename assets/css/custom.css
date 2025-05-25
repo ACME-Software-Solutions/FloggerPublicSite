@@ -48,3 +48,17 @@
   padding-left: 2rem;  /* gives space for bullets */
   margin-left: 0;      /* ensures alignment with title */
 }
+
+ul.footer-icons {
+  list-style: none;
+  display: flex;          /* Makes items horizontal */
+  justify-content: center; /* Centers items horizontally */
+  gap: 2rem;              /* Adds space between icons */
+  padding: 0;             /* Removes default padding */
+  margin: 1rem 0;         /* Adds vertical spacing */
+}
+
+img.footer-icon {
+  height: 30px;
+  max-width: 30px;
+}

@@ -1,12 +1,12 @@
 <footer class="block block-footer-1">
   <div class="container">
-    <p>{{ section.content }}</p>
-    <ul>
+    <ul class="footer-icons">
       {% for link in section.links %}
         <li>
-        <a href="{{link.url}}"><img src="{{link.icon}}" alt="{{link.alt_text}}"/></a> 
+        <a href="{{link.url}}" target="_blank" rel="noopener noreferrer" aria-label="Opens in a new tab"><img src="{{link.icon}}" alt="{{link.alt_text}}" class="footer-icon"/></a> 
         </li>
       {% endfor %}
     </ul>
+    <p>Copyright © Adam King {{ 'now' | date: "%Y" }}</p>
   </div>
 </footer>

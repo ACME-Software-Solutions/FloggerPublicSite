@@ -22,9 +22,17 @@ page_sections:
     block: blog-list
   - template: simple-footer
     block: footer-1
-    content: Footer content here
     links:
-      - icon: "#"
-        url: "#"
-        alt_text: "twitter"
+      - icon: "/uploads/images/github.svg"
+        url: "https://github.com/adamking0126"
+        alt_text: "github"
+      - icon: "/uploads/images/substack.png"
+        url: "https://adamking0126.substack.com/"
+        alt_text: "substack"
+      - icon: "/uploads/images/linkedin.png"
+        url: "https://www.linkedin.com/in/adamking0126/"
+        alt_text: "linkedin"
+      - icon: "/uploads/images/reddit.svg"
+        url: "https://www.reddit.com/user/adamking0126/"
+        alt_text: "reddit" 
 ---

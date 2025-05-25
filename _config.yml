@@ -24,17 +24,34 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/FloggerPublicSite"
+baseurl: ""
 url: "https://acme-software-solutions.github.io" 
 twitter_username: adamking0126
 github_username:  adamking0126
 
-# Build settings
 defaults:
   - scope:
-      path: "" # all files in the project
+      path: ""
+      type: "posts"
     values:
       layout: blocks
+      page_sections:
+        - template: navigation-header-w-button
+          block: header-1
+          logo: "/uploads/2018/06/21/forestry-full.svg"
+          navigation:
+            - link: "/blog/"
+              link_text: "Dev Blog Home"
+        - template: post-content
+          block: blog-post-content
+        - template: cta-bar
+          block: cta-bar
+          headline: Get notified
+          content: Receive updates about new content, upcoming live streams, etc.  No spam.
+          email_recipient: example@email.com
+        - template: simple-footer
+          block: footer-1
+          content: Footer content here
 
 plugins:
   - jekyll-feed

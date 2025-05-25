@@ -1,0 +1,43 @@
+:root {
+  /* Warm Colors */
+  --color-primary-golden: #ffcb3c;    /* Current yellow */
+  --color-primary-coral: #ff7f50;     /* Softened coral */
+  --color-primary-terra: #e67e22;     /* Earthy terracotta */
+
+  /* Cool Colors */
+  --color-primary-sage: #98b4a6;      /* Muted sage green */
+  --color-primary-steel: #7795b4;     /* Dusty blue-gray */
+  --color-primary-periwinkle: #6c7ac9; /* Soft periwinkle */
+
+  /* Earth Tones */
+  --color-primary-moss: #7e996c;      /* Mossy green */
+  --color-primary-clay: #c17f59;      /* Clay brown */
+  --color-primary-slate: #6b7a8f;     /* Slate blue-gray */
+
+  /* Colors */
+  --color-primary: var(--color-primary-sage);
+  --color-text-dark: #2b2b2b;   /* Dark gray - main text */
+  --color-text-medium: #666;    /* Medium gray - secondary text */
+  --color-text-light: #ddd;     /* Light gray - placeholder text */
+  --color-white: #fff;          /* White - backgrounds, inverted text */
+  --color-black: #000;          /* Black - borders, text */
+  --color-link-unvisited: var(--color-primary-sage);
+  --color-link-visited: var(--color-primary-slate);
+  --color-link-hover: var(--color-primary-moss);
+
+
+  /* Warm Colors */
+  --color-primary-golden: #ffcb3c;    /* Current yellow */
+  --color-primary-coral: #ff7f50;     /* Softened coral */
+  --color-primary-terra: #e67e22;     /* Earthy terracotta */
+
+  /* Cool Colors */
+  --color-primary-sage: #98b4a6;      /* Muted sage green */
+  --color-primary-steel: #7795b4;     /* Dusty blue-gray */
+  --color-primary-periwinkle: #6c7ac9; /* Soft periwinkle */
+
+  /* Earth Tones */
+  --color-primary-moss: #7e996c;      /* Mossy green */
+  --color-primary-clay: #c17f59;      /* Clay brown */
+  --color-primary-slate: #6b7a8f;     /* Slate blue-gray */
+}

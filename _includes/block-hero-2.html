@@ -7,7 +7,15 @@ style="background-image: url('{{ section.background_image | relative_url }}')"
       {% if section.media_alignment == "Right" %}
         <div class="column text">
           <h1><span class="light">{{ section.headline }}</span></h1>
-          <p>{{ section.content }}</p>
+          <p>{{ section.subtitle }}</p>
+          {% if section.content_file %}
+            <div class="section-content_file">
+            {% capture content_md %}{% include {{ section.content_file }} %}{% endcapture %}
+            {{ content_md | markdownify }}
+            </div>
+          {% else %}
+            <p>{{ section.content }}</p>
+          {% endif %}
           {% if section.cta and section.cta.enabled == true %}
           <a class="button primary inverted" href="{{ section.cta.url | relative_url }}">{{ section.cta.button_text }}</a>
           {% endif %}

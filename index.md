@@ -83,6 +83,9 @@ page_sections:
   - template: simple-footer
     block: footer-1
     links:
+      - icon: "/uploads/images/youtube.svg"
+        url: "https://www.youtube.com/@BuildingFlogger"
+        alt_text: "youtube"
       - icon: "/uploads/images/github.svg"
         url: "https://github.com/adamking0126"
         alt_text: "github"

@@ -5,8 +5,17 @@
           <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}" loading="lazy">
       </div>
       <div class="column text">
-          <h2><span class="light">{{ section.headline }}</span></h2>
-          <p>{{ section.content }}</p>
+        <h2>{{ section.headline }}</h2>
+        <p>{{ section.content }}</p>
+        <ul>
+          {% for element in section.details %}
+            {% if element.text %}
+              <li><strong>{{ element.title }}:</strong>&nbsp;{{ element.text }}</li>
+            {% else %}
+              <li><strong>{{ element.title }}</strong></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

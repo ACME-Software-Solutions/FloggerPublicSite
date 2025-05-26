@@ -62,3 +62,11 @@ img.footer-icon {
   height: 30px;
   max-width: 30px;
 }
+
+.column ul {
+  padding: 1rem;
+}
+
+.column li {
+  margin-bottom: 0.5rem;
+}

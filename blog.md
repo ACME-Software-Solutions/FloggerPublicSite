@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Blog
+title: Flogger -- Blog
 permalink: /blog/
 page_sections:
   - template: navigation-header-w-button

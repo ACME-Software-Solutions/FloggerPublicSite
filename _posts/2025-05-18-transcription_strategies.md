@@ -1,6 +1,6 @@
 ---
 title:  "Voice Transcription Strategies"
-date:   2025-05-18 10:22:46 -0500
+date:   2025-06-18 10:22:46 -0500
 excerpt: "My custom excerpt"
 ---
 

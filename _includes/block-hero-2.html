@@ -6,7 +6,8 @@ style="background-image: url('{{ section.background_image | relative_url }}')"
     <div class="columns">
       {% if section.media_alignment == "Right" %}
         <div class="column text">
-          <h1><span class="light">{{ section.headline }}</span></h1>
+          <h1><span class="light">{{ section.headline_super }}</span></h1>
+          <h1>{{ section.headline }}</h1>
           <p>{{ section.subtitle }}</p>
           {% if section.content_file %}
             <div class="section-content_file">

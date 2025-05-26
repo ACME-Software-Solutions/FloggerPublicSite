@@ -18,7 +18,8 @@ page_sections:
     block: hero-2  
     media_alignment: Right
     slug: features
-    headline: Building <br><strong>Flogger</strong>
+    headline_super: Building
+    headline: <strong>Flogger</strong>
     subtitle:
       A minimalist and unobtrusive life improvement tool.
     content_file: content/hero-content.md
@@ -37,14 +38,7 @@ page_sections:
     slug: voice-and-wearables
     headline:
       <span class="light">Voice and Wearables:&nbsp;</span><strong>First-Class Citizens</strong>
-    content: Stopping to open your phone, find the right app, and record a data point is a high friction experience.
-    details:
-      - title: "WatchOS App"
-        text: "Easy data logging with simple UI, right on your wrist"
-      - title: "SiriKit and Shortcuts Integration"
-        text: "Avoid drilling down in menus and hunting for the right parameters. Just use your voice and tell the us what you want to log."
-      - title: "Full-featured iOS and Web App"
-        text: "Collect data and view dashboards on your phone or laptop"
+    content_file: content/voice-and-wearables.md
     media:
       image: "/uploads/2018/06/21/blocks-split.png"
       alt_text: Voice and Wearables
@@ -53,8 +47,7 @@ page_sections:
     block: one-column-1
     slug: built-in-public
     headline: Built in Public
-    content: |
-      Building in public, such cool.
+    content_file: content/build-in-public.md
   
   - template: content-feature
     block: feature-1
@@ -62,15 +55,7 @@ page_sections:
     slug: features
     headline:
       <span class="light">Know Thyself:&nbsp;</span><strong>Actionable Insights, not Gamification</strong>
-    content:
-      Custom datatypes combine with Apple Healthkit and Google Health Connect for increased self-understanding
-    details:
-      - title: "Utilize correlation coefficient for early indicators"
-        text: "Immediately draw correlations with the data that the user already has already recorded/collected"
-      - title: "Encourage frequent data collection to improve data analytics"
-      - title: "Advanced Data Analytics"
-        text: "Use tools like Scikit-Learn and Pandas to analyze data.  The more you record, the better the understanding"
-    
+    content_file: content/know-thyself.md
     media:
       image: "/uploads/2018/06/21/edit.gif"
       alt_text: Data Visualizations

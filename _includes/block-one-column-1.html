@@ -2,8 +2,15 @@
   <div class="container">
     <div class="columns">
       <div class="column">
-        <h3>{{ section.headline }}</h3>
-        <p>{{ section.content }}</p>
+        <h2>{{ section.headline }}</h2>
+          {% if section.content_file %}
+            <div class="section-content_file">
+            {% capture content_md %}{% include {{ section.content_file }} %}{% endcapture %}
+            {{ content_md | markdownify }}
+            </div>
+          {% else %}
+            <p>{{ section.content }}</p>
+          {% endif %}
       </div>
     </div>
   </div>

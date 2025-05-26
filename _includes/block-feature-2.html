@@ -6,6 +6,12 @@
       </div>
       <div class="column text">
         <h2>{{ section.headline }}</h2>
+        {% if section.content_file %}
+          <div class="section-content_file">
+          {% capture content_md %}{% include {{ section.content_file }} %}{% endcapture %}
+          {{ content_md | markdownify }}
+          </div>
+        {% else %}
         <p>{{ section.content }}</p>
         <ul>
           {% for element in section.details %}
@@ -16,6 +22,7 @@
             {% endif %}
           {% endfor %}
         </ul>
+        {% endif %}
       </div>
     </div>
   </div>

@@ -74,3 +74,15 @@ img.footer-icon {
 div.section-content_file {
   margin-bottom: 1rem;
 }
+
+div.section-content_file p:first-child::first-letter {
+  float: left;
+  font-size: 2.5em;
+  margin-top: 0.15em;
+}
+
+@media screen and (min-width: 700px) {
+  .block-one-column-1 .container {
+    max-width: 50%;
+  }
+}

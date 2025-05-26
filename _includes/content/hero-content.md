@@ -1,0 +1,6 @@
+I've always liked the idea of recording all the little everyday events in your life, and somehow having a digital fortune teller sift through it all and tell me something that I didn't know about myself.  The problem, of course, is that this requires adopting ten new apps, with ten new habits to form.  I never stick with it. Maybe I could write my own app, and add some more useful data types?  Maybe run some data analytics, learn a little of the data side?
+
+Like everybody else, I've been playing with LLMs, looking for an idea where they can be applied in a way that's not just another chatbot (no disrespect). My favorite thing about LLMs is that they can serve as a natural language interface, so that people can speak naturally and have the machine "understand" it.  While VR and AR have stolen the spotlight for new experiences, I think there's a great opportunity in a much less flashy package: wearables.  Specifically, voice.
+
+Flogger is my attempt to connect the two: A "One Life Logger App to Rule Them All," and wearable/voice UI, made possible by 
+LLMs.

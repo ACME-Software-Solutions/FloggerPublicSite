@@ -19,8 +19,9 @@ page_sections:
     media_alignment: Right
     slug: features
     headline: Building <br><strong>Flogger</strong>
-    content:
+    subtitle:
       A minimalist and unobtrusive life improvement tool.
+    content_file: content/hero-content.md
     cta:
       enabled: true
       url: "/blog/"

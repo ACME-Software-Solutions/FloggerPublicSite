@@ -30,17 +30,23 @@ page_sections:
       alt_text: Product Shot
     background_image: "/uploads/2018/06/21/hero-2-bg.png"
   
-  - template: voice_and_wearables_first_class_citizens
-    block: voice_and_wearables_first_class_citizens
+  - template: content-feature
+    block: feature-1
+    media_alignment: Left
     slug: voice-and-wearables
-    content:
-      - title: "First Point"
-        text: "Description of the first point"
-      - title: "Second Point"
-        text: "Description of the second point"
+    headline:
+      <span class="light">Voice and Wearables:&nbsp;</span><strong>First-Class Citizens</strong>
+    content: Stopping to open your phone, find the right app, and record a data point is a high friction experience.
+    details:
+      - title: "WatchOS App"
+        text: "Easy data logging with simple UI, right on your wrist"
+      - title: "SiriKit and Shortcuts Integration"
+        text: "Avoid drilling down in menus and hunting for the right parameters. Just use your voice and tell the us what you want to log."
+      - title: "Full-featured iOS and Web App"
+        text: "Collect data and view dashboards on your phone or laptop"
     media:
       image: "/uploads/2018/06/21/blocks-split.png"
-      alt_text: uBuild Blocks Mock-Up
+      alt_text: Voice and Wearables
   
   - template: 1-column-text
     block: one-column-1
@@ -54,7 +60,7 @@ page_sections:
     media_alignment: Right
     slug: features
     headline:
-      <span class="light">Know Thyself:</span><strong>Actionable Insights, not Gamification</strong>
+      <span class="light">Know Thyself:&nbsp;</span><strong>Actionable Insights, not Gamification</strong>
     content:
       Custom datatypes combine with Apple Healthkit and Google Health Connect for increased self-understanding
     details:
@@ -66,7 +72,7 @@ page_sections:
     
     media:
       image: "/uploads/2018/06/21/edit.gif"
-      alt_text: Customize Blocks
+      alt_text: Data Visualizations
 
   - template: cta-bar
     block: cta-bar

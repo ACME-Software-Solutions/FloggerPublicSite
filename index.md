@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Homepage
+title: Flogger -- Home
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button
@@ -54,18 +54,15 @@ page_sections:
     media_alignment: Right
     slug: features
     headline:
-      <strong>Rapid Iteration:</strong><span class="light">&nbsp;quickly add new features to provide insights</span>
+      <span class="light">Know Thyself:</span><strong>Actionable Insights, not Gamification</strong>
     content:
-      Hook into HealthKit and Google Health Connect.
+      Custom datatypes combine with Apple Healthkit and Google Health Connect for increased self-understanding
     details:
-      - title: "Feature 1"
-        text: "Description of feature 1"
-        image: "#"
-        alt_text: "feature1"
-      - title: "Feature 2"
-        text: "Description of feature 2"
-        image: "#"
-        alt_text: "feature2"
+      - title: "Utilize correlation coefficient for early indicators"
+        text: "Immediately draw correlations with the data that the user already has already recorded/collected"
+      - title: "Encourage frequent data collection to improve data analytics"
+      - title: "Advanced Data Analytics"
+        text: "Use tools like Scikit-Learn and Pandas to analyze data.  The more you record, the better the understanding"
     
     media:
       image: "/uploads/2018/06/21/edit.gif"
@@ -76,7 +73,7 @@ page_sections:
     headline: Get notified
     content: Receive updates about new content, upcoming live streams, etc.  No spam.
     email_recipient: example@email.com
-
+  
   - template: simple-footer
     block: footer-1
     links:

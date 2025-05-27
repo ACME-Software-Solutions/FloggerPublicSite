@@ -28,6 +28,8 @@ baseurl: ""
 url: "https://acme-software-solutions.github.io" 
 twitter_username: adamking0126
 github_username:  adamking0126
+google_analytics: G-8ZVCEHBZ59
+
 
 defaults:
   - scope:

@@ -20,8 +20,7 @@ page_sections:
     slug: features
     headline_super: Building
     headline: <strong>Flogger</strong>
-    subtitle:
-      A minimalist and unobtrusive life improvement tool.
+    subtitle: <i>A minimalist and unobtrusive life improvement tool.</i>
     content_file: content/hero-content.md
     cta:
       enabled: true

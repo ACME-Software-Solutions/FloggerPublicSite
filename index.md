@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Flogger -- Home
+title: Home
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button
@@ -43,13 +43,6 @@ page_sections:
       image: "/uploads/images/voice-mobile-first.png"
       alt_text: Frog speaking to a smart watch
   
-  - template: 1-column-text
-    block: one-column-1
-    slug: built-in-public
-    headline: Built in Public
-    background_image: "/uploads/images/build-in-public.png"
-    content_file: content/build-in-public.md
-  
   - template: content-feature
     block: feature-1
     media_alignment: Right
@@ -60,12 +53,18 @@ page_sections:
     media:
       image: "/uploads/images/know-thyself.png"
       alt_text: Frogs doing self improvement stuff
+  
+  - template: 1-column-text
+    block: one-column-1
+    slug: built-in-public
+    headline: Built in Public
+    background_image: "/uploads/images/build-in-public.png"
+    content_file: content/build-in-public.md
 
   - template: cta-bar
     block: cta-bar
     headline: Get notified
     content_file: content/receive-updates.md
-    email_recipient: example@email.com
   
   - template: simple-footer
     block: footer-1

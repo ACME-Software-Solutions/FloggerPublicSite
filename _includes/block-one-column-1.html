@@ -1,4 +1,8 @@
-<section id="{{ section.slug | slugify }}" class="block block-one-column-1">
+<section id="{{ section.slug | slugify }}" class="block block-one-column-1"
+  {% if section.background_image %}
+  style="background-image: url('{{ section.background_image | relative_url }}');"
+  {% endif %}
+>
   <div class="container">
     <div class="columns">
       <div class="column justify">

@@ -81,8 +81,22 @@ div.section-content_file p:first-child::first-letter {
   margin-top: 0.15em;
 }
 
+div.section-content_file p {
+  margin-bottom: 1rem;
+}
 @media screen and (min-width: 700px) {
   .block-one-column-1 .container {
     max-width: 50%;
   }
 }
+
+.column.align-left {
+  text-align: left;
+}
+
+.column.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+

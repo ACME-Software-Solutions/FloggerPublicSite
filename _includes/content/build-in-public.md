@@ -1,4 +1,5 @@
-Building in public. Such Cool. [Blog](/blog/)
-[Project Board](https://github.com/orgs/ACME-Software-Solutions/projects/1/views/1)
-[YouTube](https://www.youtube.com/@BuildingFlogger)
-[Substack](https://adamking0126.substack.com/)
+Why build in public? What does that mean, anyway? I like all the different parts of software development - thinking about system architecture, picking a tech stack, breaking work out into logical chunks, grooming tickets, building a good test harness, drawing up database relationships, you get the point.  When I've done side projects in the past, I've just made the repo public and attempted to write about the project, continually referring back to the codebase.  The problem, to me anyway, is that I put too much of my focus on the code.  Is it properly structured? Does it look like I know what I'm doing (I do know what I'm doing)?  It just feels limiting.  I know it's silly, but it keeps me from quickly moving forward.  I end up [yak shaving](https://en.wiktionary.org/wiki/yak_shaving).
+
+For this project, I'm keeping the repo private, but the process public.  I'm keeping a public [Project Board](https://github.com/orgs/ACME-Software-Solutions/projects/1/views/1) on GitHub, so you can see what I'm working on.  The source of truth will all be in the [blog](/blog/), but I'll syndicate some of it on my [Substack](https://adamking0126.substack.com/).  Maybe even [LinkedIn](https://www.linkedin.com/in/adamking0126/)?  Side note: I **want** to like LinkedIn. Maybe some day.  I have plans to make some stuff for YouTube - I really like [DevAsLife](https://www.youtube.com/@devaslife)'s style, and I might try to imitate that at some point.
+
+If you'd like to talk about any aspect of software development, probably the best place to hit me up is on [Reddit](https://www.reddit.com/user/adamking0126/).

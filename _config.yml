@@ -21,9 +21,7 @@
 title: "Flogger: An Minimalist and Unobtrusive Life Improvement Tool"
 email: adam.king0126@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Flogger is a minimal and unobtrusive personal improvement tool that focuses on voice and wearable integration. Built in public, it emphasizes actionable insights over gamification, helping you track and improve your daily habits without getting in the way.
 baseurl: ""
 url: "https://acme-software-solutions.github.io" 
 twitter_username: adamking0126

@@ -5,7 +5,8 @@ date: 2017-11-22T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button
     block: header-2
-    logo: "/uploads/2018/06/21/forestry-full.svg"
+    logo: "/uploads/images/logo.png"
+    site_title: FLOGGER
     navigation:
       - link: "#voice-and-wearables"
         link_text: "Use Your Voice"
@@ -27,7 +28,7 @@ page_sections:
       url: "/blog/"
       button_text: "Read the Dev Blog"
     image:
-      image: "/uploads/2018/06/21/product-shot-1.png"
+      image: "/uploads/images/main-product-image.png"
       alt_text: Product Shot
     background_image: "/uploads/2018/06/21/hero-2-bg.png"
   
@@ -39,13 +40,14 @@ page_sections:
       <span class="light">Voice and Wearables:&nbsp;</span><strong>First-Class Citizens</strong>
     content_file: content/voice-and-wearables.md
     media:
-      image: "/uploads/2018/06/21/blocks-split.png"
-      alt_text: Voice and Wearables
+      image: "/uploads/images/voice-mobile-first.png"
+      alt_text: Frog speaking to a smart watch
   
   - template: 1-column-text
     block: one-column-1
     slug: built-in-public
     headline: Built in Public
+    background_image: "/uploads/images/build-in-public.png"
     content_file: content/build-in-public.md
   
   - template: content-feature
@@ -56,8 +58,8 @@ page_sections:
       <span class="light">Know Thyself:&nbsp;</span><strong>Actionable Insights, not Gamification</strong>
     content_file: content/know-thyself.md
     media:
-      image: "/uploads/2018/06/21/edit.gif"
-      alt_text: Data Visualizations
+      image: "/uploads/images/know-thyself.png"
+      alt_text: Frogs doing self improvement stuff
 
   - template: cta-bar
     block: cta-bar

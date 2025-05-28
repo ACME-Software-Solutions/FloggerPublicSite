@@ -62,7 +62,7 @@ page_sections:
   - template: cta-bar
     block: cta-bar
     headline: Get notified
-    content: Receive updates about new content, upcoming live streams, etc.  No spam.
+    content_file: content/receive-updates.md
     email_recipient: example@email.com
   
   - template: simple-footer

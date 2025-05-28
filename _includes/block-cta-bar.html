@@ -2,12 +2,19 @@
   <div class="container">
     <div class="columns">
         <div class="column text">
-          <h2><span class="light">{{ section.headline }}</span></h2>
+          <h2>{{ section.headline }}</h2>
+          {% if section.content_file %}
+          <div>
+            {% capture content_md %}{% include {{ section.content_file }} %}{% endcapture %}
+            {{ content_md | markdownify }}
+          </div>
+          {% else %}
           <p>{{ section.content }}</p>
+          {% endif %}
         </div>
-        <div class="cta">
+      <div class="column">
         <iframe src="https://adamking0126.substack.com/embed" width="500" height="150" frameborder="0" scrolling="no"></iframe>
-        </div>
+      </div>
     </div>
   </div>
 </div>

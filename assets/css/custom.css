@@ -99,4 +99,25 @@ div.section-content_file p {
   text-justify: inter-word;
 }
 
+.block-cta-bar {
+  background-color: var(--color-white);
+  border-top: 50px solid var(--color-primary);
+  border-bottom: 50px solid var(--color-primary);
+}
 
+.block-cta-bar .text {
+  min-width: 500px;
+  padding-right: 0;
+  text-align: center;
+}
+
+.block-cta-bar, .block-cta-bar .text p {
+  color: var(--color-text-dark);
+}
+
+.block-cta-bar .columns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;  /* Add this */
+}

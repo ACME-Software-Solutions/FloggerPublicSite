@@ -4,7 +4,14 @@
 }
 @media screen and (min-width: 700px) {
   .block {
-    padding: 6rem 4rem 0 4rem;
+    padding: 6rem 4rem 2rem 4rem;
+  }
+  .block-cta-bar {
+    padding: 0rem 4rem 0 4rem;
+  }
+  .block-header-1, .block-header-2 {
+    padding: 0.5rem 4rem 0.5rem 4rem;
+
   }
 }
 
@@ -46,11 +53,24 @@
 }
 .block-post-content  {
   padding: 2rem;
+  color: var(--color-text-medium);
 }
 
-/* Add space after h1 */
 .block-post-content h1 {
   margin-bottom: 2rem;
+}
+
+div.page-title time {
+  margin-left: 0.5rem;  
+  color: var(--color-text-light);
+}
+
+div.page-title h1 {
+  margin-bottom: 0;
+}
+
+.block-post-content p {
+  margin-bottom: 1rem;
 }
 
 /* Keep list items aligned within container */
@@ -84,12 +104,6 @@ img.footer-icon {
 div.section-content_file {
   margin-bottom: 1rem;
 }
-
-/* div.section-content_file p:first-child::first-letter { */
-/*   float: left; */
-/*   font-size: 2.5em; */
-/*   margin-top: 0.15em; */
-/* } */
 
 div.section-content_file p {
   margin-bottom: 1rem;
@@ -163,7 +177,14 @@ div.section-content_file p {
   opacity: 0.8;
 }
 
-.block-header-2--logo a {
+.media .page-hero {
+  max-height: 15rem;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.block-header-2--logo a, .block-header-1--logo a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -173,7 +194,7 @@ div.section-content_file p {
 }
 
 
-.block-header-2--logo img {
+.block-header-2--logo img, .block-header-1--logo img {
   max-height: 40px;
   max-height: 2.5rem;
 }
@@ -185,4 +206,8 @@ div.section-content_file p {
   margin-right: 1rem;
   font-size: 16px;
   font-size: 1rem;
+}
+
+section.block:last-of-type {
+  margin-bottom: 2rem;
 }

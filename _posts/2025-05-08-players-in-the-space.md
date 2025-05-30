@@ -1,6 +1,6 @@
 ---
 title:  "Players in the space"
-date:   2025-06-08 10:22:46 -0500
+date:   2125-06-08 10:22:46 -0500
 excerpt: "Here I'm collecting examples of other 'log it all' applications -- Self-improvement, diet and exercise tracking, journalling, medication, menstrual cycle tracking, 'quantified self', etc.  Nothing is off limits"
 ---
 

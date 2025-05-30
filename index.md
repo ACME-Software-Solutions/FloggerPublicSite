@@ -30,7 +30,7 @@ page_sections:
     image:
       image: "/uploads/images/main-product-image.png"
       alt_text: Product Shot
-    background_image: "/uploads/2018/06/21/hero-2-bg.png"
+    background_image: ""
   
   - template: content-feature
     block: feature-1

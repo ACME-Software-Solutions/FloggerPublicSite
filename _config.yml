@@ -35,6 +35,7 @@ defaults:
       type: "posts"
     values:
       layout: blocks
+      canonical_url: "https://flogger.io{{ page.url }}"
       page_sections:
         - template: navigation-header-w-button
           block: header-1

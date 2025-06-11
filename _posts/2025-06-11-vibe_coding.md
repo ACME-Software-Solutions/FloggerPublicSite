@@ -14,7 +14,7 @@ Before I can really do any of that, though, I need to know that I can build a fr
 
 ## Peep the vibes
 
-So I use an LLM on a daily basis in my work.  My current weapon of choice is GitHub Copilot in my IDE, usually running some flavor of Anthropic LLM.  I cannot overstate the boost that the LLM has given me over these past [two](two) years or so.  I don't really have it generate code for me, rather I have a long-running conversation with it about the decisions I make.  "What do you think about this approach?" "Can you spot any edge cases in this logic here?" "Will you please take a look at this PR before I request code review?" 
+So I use an LLM on a daily basis in my work.  My current weapon of choice is GitHub Copilot in my IDE, usually running some flavor of Anthropic LLM.  I cannot overstate the boost that the LLM has given me over these past two years or so.  I don't really have it generate code for me, rather I have a long-running conversation with it about the decisions I make.  "What do you think about this approach?" "Can you spot any edge cases in this logic here?" "Will you please take a look at this PR before I request code review?" 
 
 Times when I have asked the LLM to generate a solution for me have always left me wondering if I had just wasted my time in a novel way, as opposed to how I would normally do it - struggling through documentation and (possibly outdated) blog posts.  If I don't know enough about the solution it is proposing, I end up spinning around in circles: passing the error message in, getting some "fix," getting new error messages, passing those back to the LLM, then getting a "fix" which reproduces the original error.  Around and around we go.
 

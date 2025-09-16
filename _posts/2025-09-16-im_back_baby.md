@@ -1,7 +1,7 @@
 ---
 title: "Hacking Up an iOS App"
 date: 2025-09-16 09:00:00 -0500
-excerpt: " blah blah blah "
+excerpt: "After a summer break, diving back into development by building an iOS app for Flogger - a life logging tool. Learning Swift by doing, focusing on HealthKit integration and basic data collection."
 images:
   hero: "/uploads/blog/2025-09-16/im_back.png"
 ---
